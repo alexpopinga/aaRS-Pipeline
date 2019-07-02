@@ -1,0 +1,191 @@
+LOCUS       CP007060                1728 bp    DNA     linear   BCT 13-JAN-2014
+DEFINITION  Halobacterium sp. DL1, complete genome.
+ACCESSION   CP007060 REGION: 2773821..2775548
+VERSION     CP007060.1  GI:573484043
+DBLINK      BioProject: PRJNA59739
+            BioSample: SAMN02261380
+KEYWORDS    .
+SOURCE      Halobacterium sp. DL1
+  ORGANISM  Halobacterium sp. DL1
+            Archaea; Euryarchaeota; Halobacteria; Halobacteriales;
+            Halobacteriaceae; Halobacterium.
+REFERENCE   1  (bases 1 to 1728)
+  AUTHORS   Cavicchioli,R., Huntemann,M., Han,J., Chen,A., Kyrpides,N.,
+            Mavromatis,K., Markowitz,V., Palaniappan,K., Ivanova,N.,
+            Schaumberg,A., Pati,A., Liolios,K., Nordberg,H.P., Cantor,M.N.,
+            Hua,S.X. and Woyke,T.
+  CONSRTM   DOE Joint Genome Institute
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JAN-2014) DOE Joint Genome Institute, 2800 Mitchell
+            Drive, Walnut Creek, CA 94598-1698, USA
+COMMENT     URL -- http://www.jgi.doe.gov
+            JGI Project ID: 402828
+            Source DNA and Organism available from Rick  Cavicchioli
+            (r.cavicchioli@unsw.edu.au)
+            Source DNA available from Rick  Cavicchioli
+            (r.cavicchioli@unsw.edu.au)
+            Organism available from Rick  Cavicchioli
+            (r.cavicchioli@unsw.edu.au)
+            Contacts: Rick  Cavicchioli (r.cavicchioli@unsw.edu.au)
+                      Tanja Woyke (microbe@cuba.jgi-psf.org)
+            Whole genome sequencing and draft assembly at JGI-PGF
+            Annotation by JGI-ORNL
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##MIGS-Data-START##
+            investigation_type       :: bacteria_archaea
+            project_name             :: Halobacterium sp. DL1
+            num_replicons            :: 1
+            biotic_relationship      :: Free living
+            rel_to_oxygen            :: Aerobe
+            finishing_strategy       :: Level 6: Finished
+            environment              :: Fresh water; Ponds
+            trophic_level            :: Chemoorganotroph
+            sequencing_meth          :: WGS
+            GOLD Stamp ID            :: Gi07604
+            Current Finishing Status :: Level 6: Finished
+            Funding Program          :: DOE-CSP 2010
+            Gene Calling Method      :: GenePRIMP, Prodigal 1.4
+            Cell Shape               :: Rod-shaped
+            Motility                 :: Motile
+            Sporulation              :: Nonsporulating
+            Temperature Range        :: Mesophile
+            Temperature Optimum      :: 42
+            Salinity                 :: Halophile
+            Gram Staining            :: Gram-
+            Diseases                 :: None
+            ##MIGS-Data-END##
+            
+            ##Genome-Assembly-Data-START##
+            Current Finishing Status :: Finished
+            Assembly Method          :: Unknown program v. before 2011-06-15
+            Genome Coverage          :: Unknown
+            Sequencing Technology    :: Illumina GAii; 454-GS-FLX
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider          :: NCBI
+            Annotation Date              :: 01/10/2014 10:55:46
+            Annotation Pipeline          :: NCBI Prokaryotic Genome Annotation
+                                            Pipeline
+            Annotation Method            :: Best-placed reference protein set;
+                                            GeneMarkS+
+            Annotation Software revision :: 2.3 (rev. 423251)
+            Features Annotated           :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                            repeat_region
+            Genes                        :: 3,345
+            CDS                          :: 3,280
+            Pseudo Genes                 :: 15
+            CRISPR Arrays                :: 1
+            rRNAs                        :: 3 ( 5S, 16S, 23S )
+            tRNAs                        :: 46
+            ncRNA                        :: 1
+            Frameshifted Genes           :: 12
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1728
+                     /organism="Halobacterium sp. DL1"
+                     /mol_type="genomic DNA"
+                     /strain="DL1"
+                     /db_xref="taxon:751944"
+     gene            <1..8
+                     /locus_tag="HALDL1_16440"
+     CDS             <1..8
+                     /locus_tag="HALDL1_16440"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:ZP_08042593.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHG05012.1"
+                     /db_xref="GI:573486606"
+                     /translation="MNVADAMTPRADVVTVELPGTRDDILEYLQERAFSSVPVVKPSE
+                     DGEQYRGLISRDDLIERPEEDQLAMLMRDAPTTTTDATIQEVAALMLREDARRVPVVE
+                     DGRLEGIVTVTDVVRAIADGEEDGDTEVGGLARRDVNTTYAGTPLTVTEREISFANVP
+                     YSVVLGEDGEMAGIVTEVDVIEVARVVEGEANTGDSIADDDDDWKWESIKATGSRYLP
+                     TRNVEIPAEPVEEFMTRDVLTVSKRRTAREVAQQMLTNDVEQVPLMSGDELVGIVRDV
+                     DLLAGVADE"
+     gene            1..1728
+                     /locus_tag="HALDL1_16445"
+     CDS             1..1728
+                     /locus_tag="HALDL1_16445"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:ZP_09027870.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="glycyl-tRNA synthetease"
+                     /protein_id="AHG05013.1"
+                     /db_xref="GI:573486607"
+                     /translation="MSELDELARRRGFFFQANEAYGGVSGFYTYGPEGAALKRNVEET
+                     WRDRFVTREGNMEIDSPTVTPEAVFEASGHLDGFDDMLVECPECGESHRADHVVEDNT
+                     DVEDAESVPTEEVEALIAEHDLVCPDCGASLVGQPVEGFNLMFATSIGPGSGQPGYLR
+                     PETAQGMFTEFPRLKEYARNQLPFGAAQIGAGYRNEISPRNALLRAREFTMAELEFFV
+                     DPEGEGPDLSRVADVELPLYPVEAQQADGEEYLRLTPQEALEEGVVQGEWVAYFLARS
+                     KQWFERVGVDMERFRFRQHLPGELAHYASDCWDAEGEVGGDWVELEGIASRTDYDLSK
+                     HSEHADDNFTVFQQYDEPKTVERATVDPDMSALGPKFGGDAGAVADALKALAERDRSA
+                     FEDDEVTVEVDGEAYTVPTEQTGFAVEEQTESGRHIVPHVVEPAFGVGRAVYTVLAHN
+                     YDEDEVEGEERSVLRLPAEVAPTTVGVFPLMDKDGLGETARDLAADLREAGVDVTYDD
+                     SGNIGRRYRRQDEVGTPYCVTVDYDSLEDGTVTLRDRDSTAQTRVELTELTELLPALR
+                     DGDVTFDEL"
+     gene            1725..>1728
+                     /locus_tag="HALDL1_16450"
+     CDS             1725..>1728
+                     /locus_tag="HALDL1_16450"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:YP_001690107.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="dolichol kinase"
+                     /protein_id="AHG05014.1"
+                     /db_xref="GI:573486608"
+                     /translation="MSEVGRRLVHASGAVLPGAFLAGLLSWEAVRWLLVVGAVCTVVL
+                     EALRLSGYVSWWIFDALTRDYEQDNPAGYALYELSWTATAWLFAPSLAVPAMLMLALA
+                     DPASGLLSRGELGVKQGWVLLATFGICLAIASLLDVPLVAGVAGALVATFADGATPVV
+                     RGYVIDDNATIPLGAGAAMWVVLAVL"
+ORIGIN      
+        1 atgagtgagc tagacgagct cgcgcgccgc cgcgggttct tcttccaggc gaacgaggcg
+       61 tacggtggcg tctccgggtt ctacacctac ggcccggagg gcgcggcgct gaagcgcaac
+      121 gtcgaggaga cgtggcgcga ccgcttcgtc acccgcgagg gtaacatgga gatcgactcc
+      181 ccgacggtga ccccggaagc ggtcttcgag gcgtcgggcc acctcgacgg cttcgacgac
+      241 atgctcgtgg agtgcccgga gtgtggtgag agccaccgcg ccgaccacgt cgtcgaggac
+      301 aacaccgacg tggaggacgc cgagtccgtg ccgaccgagg aggtcgaggc gctcatcgcc
+      361 gagcacgacc tcgtctgccc tgactgcggc gcgtccctgg tcggccagcc cgtcgagggg
+      421 ttcaacttga tgttcgcgac gagcatcggc cccggctccg gccagcccgg ctacctccgg
+      481 ccggagacgg cccaggggat gttcacggag ttcccgcgcc tgaaggagta cgcccgcaac
+      541 cagctgccgt tcggcgccgc gcagatcggc gcgggctacc gcaacgagat cagcccgcgg
+      601 aacgcgctgc tgcgcgcccg tgagttcacg atggcggaac tagagttctt cgtcgacccg
+      661 gagggcgagg ggccggacct ctcgcgggtc gcggacgtcg aactgccgct gtaccccgtc
+      721 gaggcccagc aggccgacgg cgaggagtac ctgcggctca cgccccagga ggccctcgag
+      781 gagggcgtcg tacagggcga gtgggtggcg tacttcctcg cgcggtcgaa gcagtggttc
+      841 gagcgggtcg gcgtggacat ggagcggttc cggttccgcc agcacctccc cggcgaactc
+      901 gcccactacg cctctgattg ctgggacgcg gagggcgagg tcggcggcga ctgggtggaa
+      961 ctggaaggca tcgcctcccg gaccgactac gacctctcga agcactcgga gcacgccgac
+     1021 gacaacttca ccgtcttcca gcagtacgac gagccgaaga ccgtcgagcg cgcgaccgtc
+     1081 gacccggaca tgtccgcgct gggcccgaag ttcggcggcg acgccggggc cgtcgcggac
+     1141 gccctcaagg cgctcgccga gcgcgaccgc tcggcgttcg aggacgacga ggtcaccgtc
+     1201 gaggtcgacg gcgaggcgta cacggttccg accgagcaga ccggcttcgc ggtcgaggag
+     1261 cagaccgagt ccggccgcca catcgtcccg cacgtggtcg aacccgcgtt cggcgtcggg
+     1321 cgcgcggtgt acacggtgct cgcgcacaac tacgacgagg acgaggtcga gggcgaggag
+     1381 cgcagcgtgc tccgcctgcc cgcggaggtc gcgccgacga ccgtcggcgt gttcccgctg
+     1441 atggacaagg acggcctggg cgagacagcc cgcgacctgg cggcggacct ccgtgaggcc
+     1501 ggcgtcgacg tgacctacga cgactccggg aacatcggtc gccggtaccg ccggcaggac
+     1561 gaggtcggca cgccgtactg cgtcaccgtc gactacgaca gcctcgagga cggcacggtg
+     1621 acgctccgcg accgcgactc gacggcccag acgcgcgtcg aactgaccga gctcaccgag
+     1681 ctactgccgg cgctgcgcga cggcgacgtc accttcgacg agctgtga
+//
+
