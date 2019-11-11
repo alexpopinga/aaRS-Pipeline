@@ -1,8 +1,0 @@
------------- HAVE ACTUAL STRUCTURES FOR: ------------
-
-Bacteria:
-T. thermophilus
-
-Archaea:
-
-Eukaryote:
